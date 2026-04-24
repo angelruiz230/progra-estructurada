@@ -18,12 +18,13 @@ int main()
     {
         printf("NOMBRE:");
         fgets(grupo[i].nombre,20,stdin);//se puede poner el indicador ->
-       /* printf("\nNUMERO DE ACTIVIDADES:");
+        printf("\nNUMERO DE ACTIVIDADES:");
         scanf("%d",&grupo[i].act);
         printf("\nCALIFICACION:");
         scanf("%f",&grupo[i].cal);
         printf("\nDERECHO:");
-        scanf("%d",&grupo[i].derecho);*/
+        scanf("%d",&grupo[i].derecho);
+        getchar();
 
     }
     for(int j=0;j<3;j++)
